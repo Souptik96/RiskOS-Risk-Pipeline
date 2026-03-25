@@ -1,0 +1,70 @@
+{
+  "batch_id": "test_batch_001",
+  "transactions": [
+    {
+      "transaction_id": "txn_000001",
+      "amount": 150.50,
+      "hour_of_day": 14,
+      "is_cross_border": false,
+      "merchant_risk_tier": 2,
+      "velocity_1h": 2,
+      "amount_vs_user_avg": 1.2,
+      "account_age_days": 365,
+      "failed_auth_count": 0,
+      "device_seen_before": true,
+      "country_risk_score": 0.1
+    },
+    {
+      "transaction_id": "txn_000002",
+      "amount": 8500.00,
+      "hour_of_day": 3,
+      "is_cross_border": true,
+      "merchant_risk_tier": 4,
+      "velocity_1h": 8,
+      "amount_vs_user_avg": 4.5,
+      "account_age_days": 15,
+      "failed_auth_count": 2,
+      "device_seen_before": false,
+      "country_risk_score": 0.85
+    },
+    {
+      "transaction_id": "txn_000003",
+      "amount": 75.25,
+      "hour_of_day": 10,
+      "is_cross_border": false,
+      "merchant_risk_tier": 1,
+      "velocity_1h": 1,
+      "amount_vs_user_avg": 0.8,
+      "account_age_days": 730,
+      "failed_auth_count": 0,
+      "device_seen_before": true,
+      "country_risk_score": 0.05
+    },
+    {
+      "transaction_id": "txn_000004",
+      "amount": 12500.00,
+      "hour_of_day": 23,
+      "is_cross_border": true,
+      "merchant_risk_tier": 5,
+      "velocity_1h": 12,
+      "amount_vs_user_avg": 6.0,
+      "account_age_days": 5,
+      "failed_auth_count": 4,
+      "device_seen_before": false,
+      "country_risk_score": 0.95
+    },
+    {
+      "transaction_id": "txn_000005",
+      "amount": 3200.00,
+      "hour_of_day": 16,
+      "is_cross_border": false,
+      "merchant_risk_tier": 3,
+      "velocity_1h": 4,
+      "amount_vs_user_avg": 2.1,
+      "account_age_days": 90,
+      "failed_auth_count": 1,
+      "device_seen_before": true,
+      "country_risk_score": 0.3
+    }
+  ]
+}
