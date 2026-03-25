@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
-from .schemas import Transaction
-from .static_rules import RULE_DEFINITIONS, RULE_PRIORITY
+from schemas import Transaction
+from static_rules import RULE_DEFINITIONS, RULE_PRIORITY
 
 class RuleEngine:
     def __init__(self):

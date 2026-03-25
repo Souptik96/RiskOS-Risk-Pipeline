@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from .pipeline import RiskPipeline
-from .schemas import PipelineRequest, PipelineResponse
+from pipeline import RiskPipeline
+from schemas import PipelineRequest, PipelineResponse
 import uvicorn
 import time
 

@@ -1,8 +1,8 @@
 import time
 from typing import List, Dict, Any
-from .scorer import RiskScorer
-from .rule_engine import RuleEngine
-from .schemas import Transaction, TransactionResult
+from scorer import RiskScorer
+from rule_engine import RuleEngine
+from schemas import Transaction, TransactionResult
 
 class RiskPipeline:
     def __init__(self):
