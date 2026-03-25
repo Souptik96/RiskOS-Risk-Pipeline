@@ -91,22 +91,6 @@ curl -X POST https://soupstick-risk-pipeline.hf.space/api/v1/run \
     ]
   }'
 
-# Response:
-{
-  "run_id": "uuid",
-  "input_summary": {"n_transactions": 1, "n_escalated": 1},
-  "triage_decisions": [{
-    "transaction_id": "txn-001",
-    "decision": "ESCALATE",
-    "risk_score": 0.91,
-    "rule_applied": "R001",
-    "rule_confidence": 0.92,
-    "latency_ms": 12
-  }],
-  "workload_reduction_estimate": 0.0,
-  "processing_time_ms": 45
-}
-
 # Get active rules
 curl https://soupstick-risk-pipeline.hf.space/api/v1/rules
 
@@ -179,5 +163,5 @@ Add `LLM_API_KEY` to your environment or HuggingFace Secrets to enable this.
 |---|---|---|
 | **RiskOS** | Core Orchestrator & Multi-Agent Switchboard | [Link](https://github.com/Souptik96/RiskOS) |
 | **Risk-Pipeline** | ML Triage & Rule Engine (this repo) | [Link](https://github.com/Souptik96/RiskOS-Risk-Pipeline) |
-| **Fraud-Intelligence** | Graph-based Identity & Entity Linkage | [Link](https://github.com/Souptik96/RiskOS-Fraud-Intelligence) |
-| **RiskOS-Shield** | Analyst Case Management Dashboard | [Link](https://github.com/Souptik96/RiskOS-Shield) |
+| **LLM-Guard** | RAG-Augmented Guardrails | [Link](https://github.com/Souptik96/RiskOS-LLM-Guard) |
+| **Marketplace-Intelligence** | NL→SQL Analytics Layer | [Link](https://github.com/Souptik96/RiskOS-Marketplace-Intelligence) |
